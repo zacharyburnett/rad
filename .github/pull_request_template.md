@@ -1,17 +1,16 @@
-<!-- If this PR closes a JIRA ticket, make sure the title starts with the JIRA issue number,
-for example RAD-1234: <Fix a bug> -->
+<!-- If this PR addresses a JIRA ticket: -->
+<!-- Resolves [RCAL-nnnn](https://jira.stsci.edu/browse/RCAL-nnnn) -->
 
-Resolves [RAD-nnnn](https://jira.stsci.edu/browse/RAD-nnnn)
+<!-- If this PR will close an existing GitHub issue (that is not already attached to a JIRA ticket): -->
+<!-- Closes # -->
 
-<!-- If this PR closes a GitHub issue, reference it here by its number -->
+<!-- Describe your changes here: -->
 
-Closes #
+## Description
 
-<!-- describe the changes comprising this PR here -->
+This change ...
 
-This PR addresses ...
-
-<!-- if you can't perform these tasks due to permissions, please ask a maintainer to do them -->
+<!-- If you can't perform these tasks due to permissions, reach out to a maintainer. -->
 
 ## Tasks
 
@@ -24,12 +23,7 @@ This PR addresses ...
   - [ ] Start a `romancal` regression test (https://github.com/spacetelescope/RegressionTests/actions/workflows/romancal.yml) with this branch installed (`"git+https://github.com/<fork>/rad@<branch>"`).
   - [ ] Update relevant `roman_datamodels` utilities and tests.
 
-<details><summary>News fragment change types:</summary>
+## Generative AI Usage Disclosure
 
-- `changes/<PR#>.feature.rst`: new feature
-- `changes/<PR#>.bugfix.rst`: fixes an issue
-- `changes/<PR#>.doc.rst`: documentation change
-- `changes/<PR#>.removal.rst`: deprecation or removal of public API
-- `changes/<PR#>.misc.rst`: infrastructure or miscellaneous change
-
-</details
+<!-- If generative AI or LLMs were used in the process of making this change, describe their use here. -->
+<!-- Otherwise, indicate "No genAI tools used". -->
